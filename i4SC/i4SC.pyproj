@@ -22,6 +22,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="i4SC.py" />
+    <Compile Include="laser.py" />
+    <Compile Include="light.py" />
+    <Compile Include="Packaging.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="readRFID.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tracing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="upload.py" />
+    <Compile Include="writeRFID.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
